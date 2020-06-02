@@ -1,0 +1,140 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+body {
+	margin: 0;
+	font-family: "Prompt";
+	background-color: #f2f2f2;
+}
+.nav {
+	background-color: #2f2f2f;
+}
+.nav ul {
+	overflow: hidden;
+	list-style: none;
+	margin: auto;
+}
+.nav li {
+	float: left
+}
+.nav li a {
+	display: block;
+	padding: 16px 18px;
+	color: #fff;
+	text-decoration: none;
+}
+.nav li a:hover {
+	background-color: #222;
+	transition: .6s;
+}
+a.active {
+	background-color: #222;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.col1 {
+	width: 70%;
+	float: left;
+	margin: 10px;
+	padding: 15px
+}
+.col2 {
+	width: 20%;
+	float: left;
+	margin: 10px;
+	padding: 15px
+}
+.bg-white {
+	background-color:  white;
+}
+a.red-btn {
+	background-color: #E71A1D;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	color: #fff;
+}
+a:hover.red-btn {
+	background-color: #F34446;
+	transition: .6s;
+}
+a.green-btn {
+	background-color: #00912B;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	color: #fff;
+}
+a:hover.green-btn {
+	background-color: #1EA847;
+	transition: .6s;
+}
+a.yellow-btn {
+	background-color: #D88D00;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	color: #fff;
+}
+a:hover.yellow-btn {
+	background-color: #FFAE16;
+	transition: .6s;
+}
+table.showrow {
+	border-collapse: collapse;
+	width: 100%;
+
+}
+td.showrow, th.showrow {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+td.form, th.form {
+	border-bottom: 1px solid #222;
+	padding: 10px;
+}
+tr:hover.showrow {
+	background-color: #ddd;
+	transition: .6s;
+}
+input[type=text],input[type=tel],input[type=email],input[type=date],input[type=password] {
+	padding: 10px;
+	font-family: "Prompt";
+	outline: none;
+	border: 2px solid #ccc;
+}
+input[type=text]:focus,input[type=tel]:focus,input[type=email]:focus,input[type=password]:focus,input[type=date]:focus {
+	border: 2px solid #222;
+	transition: 1s;
+}
+input[type=submit] {
+	background-color: #00912B;
+	outline: none;
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+	display: inline-block;
+	color: #fff;
+	font-family: "Prompt";
+	cursor: pointer;
+	font-size: .9 em;
+}
+input[type=submit]:hover {
+	background-color: #1EA847;
+	transition: .6s;
+}
+.login-box {
+	margin: auto;
+	width: 40%;
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 10%;
+}
